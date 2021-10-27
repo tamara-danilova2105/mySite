@@ -1,0 +1,348 @@
+body {
+    margin: 0;
+    background-color: #dddddd7a;
+}
+.home {
+    display: flex;
+    flex-direction: column;
+    background-color: #393E46;
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 100%;
+    z-index: 3;
+}
+
+.item {
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 40px;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.headername {
+    font-family: 'Balsamiq Sans', cursive;
+    color: white;
+    font-size: 60px;
+}
+
+.images {
+    width: 130px;
+    height: 130px;
+    margin: 50px;
+}
+
+.imagesOne {
+    width: 240px;
+    height: 240px;
+    margin: 50px;
+}
+
+/* #next {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+#back {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    transform: scale(-1, -1)
+} */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 30px;
+    text-shadow: 2px 1px #FF9292;
+}
+
+.btn {
+    text-align: center;
+    width: 60%;
+}
+
+h2 {
+    margin-bottom: -10px;
+}
+
+.btnHeader {
+    margin-top: -10px;
+}
+
+.resume {
+    display: flex;
+    justify-content: space-around;
+    background-color: #393E46;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    margin-top: 30px;
+}
+
+.resume-mobil {
+    display: none;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.skills-block {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.sertificate {
+    font-size: 30px;
+    text-shadow: 2px 1px #FF9292;
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+    background-color: #393E46;
+}
+
+.work-header {
+    align-self: center;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #fff;
+    font-size: 30px;
+}
+
+.work-block {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.work-item {
+    font-family: 'Balsamiq Sans', cursive;
+    color: #fff;
+    font-size: 30px;
+}
+
+.work-show {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    text-shadow: 2px 1px #FF9292;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+  /* ---- particles.js container ---- */
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+}
+
+  /* ---- stats.js ---- */
+
+.count-particles{
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles{
+    font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+    -webkit-user-select: none;
+}
+
+#stats{
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles{
+    border-radius: 0 0 3px 3px;
+}
+
+@media all and (max-width: 800px) {
+    .item {
+        color: white;
+        font-family: 'Balsamiq Sans', cursive;
+        font-size: 30px;
+        text-decoration: none;
+        margin: 10px;
+    }
+
+    .headername {
+        font-size: 40px;
+    }
+
+    .home {
+        height: 50vh;
+    }
+
+    .header {
+        margin-top: 100px;
+    }
+
+    #particles-js {
+        height: 50vh;
+    }
+
+    .images {
+        display: none;
+    }
+
+    .resume {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work-block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work-img {
+        width: 100%;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-links {
+        align-self: center;
+    }
+
+
+}
+
+@media all and (max-width: 500px) {
+    .item {
+        font-size: 25px;
+        margin: 10px;
+    }
+
+    .headername {
+        font-size: 35px;
+    }
+
+    .btnHeader {
+        font-size: 35px;
+    }
+
+    .home {
+        height: 100vh;
+    }
+
+    #particles-js {
+        height: 100vh;
+    }
+
+    .header {
+        margin-top: 200px;
+    }
+
+    .resume {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .work-item {
+        text-align: center;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .resume-mobil {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .myphoto {
+        width: 350px;
+    }
+
+    .contact-links {
+        font-size: 30px
+    }
+    
+
+}
+
+
+
+
